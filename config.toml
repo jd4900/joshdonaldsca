@@ -1,0 +1,45 @@
+baseURL = "http://joshdonaldson.ca"
+languageCode = "en-us"
+theme = "anatole"
+
+[params]
+    title = "Joshua Donaldson"
+    author = "Joshua Donaldson"
+    description = "Chemical Engineer, Developer"
+    profilePicture = "images/profile.jpg"
+    favicon = "favicons/"
+    mainSections = ["post"]
+    customCss = []
+
+[menu]
+    [[menu.main]]
+    name = "Home"
+    identifier = "home"
+    weight = 100
+    url = "/"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/joshua-wj-donaldson/"
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/jd4900"
+
+# [[params.socialIcons]]
+# icon = "fa-instagram"
+# title = "instagram"
+# url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:joshua.donaldson@alumni.ubc.ca"
